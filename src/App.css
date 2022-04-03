@@ -1,0 +1,87 @@
+.home-header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+}
+
+.home-header p {
+  color: Red;
+  font-size: 2rem;
+}
+
+td {
+  padding: 1rem;
+}
+
+/* login section  */
+
+.login-main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+.login-main > form > div {
+  display: flex;
+  flex-direction: column;
+}
+
+.login-main input {
+  margin-top: 0.5rem;
+  width: 250px;
+  padding: 5px 0;
+}
+
+.login-main label {
+  font-size: 1.5rem;
+}
+
+.login-main .password {
+  margin-top: 1rem;
+}
+
+.login-main button {
+  background-color: rgb(130, 130, 170);
+  text-align: center;
+  color: white;
+  margin-top: 1rem;
+  font-size: 1.5rem;
+  border: none;
+  cursor: pointer;
+}
+
+/* add test section  */
+
+.add-test {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+.add-test > form > div {
+  display: flex;
+  flex-direction: column;
+}
+
+.add-test input {
+  margin-top: 0.5rem;
+  width: 250px;
+  padding: 5px 0;
+}
+
+.add-test label {
+  font-size: 1.5rem;
+}
+
+.add-test button {
+  background-color: rgb(130, 130, 170);
+  text-align: center;
+  color: white;
+  margin-top: 1rem;
+  font-size: 1.5rem;
+  border: none;
+  cursor: pointer;
+}
